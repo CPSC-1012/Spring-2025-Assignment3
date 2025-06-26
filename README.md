@@ -28,6 +28,9 @@ You have been provided with a [starter project](./Assignment3.zip) for this assi
 be to complete the missing requirements where indicated. There are a number of tasks that are all identified by 
 `// TODO: ` comments throughout the `Program.cs` file.
 
+  - Tip: when you click the link above, there is a small download button on the right side of the screen that looks like a downward-facing arrow:
+  ![image](https://github.com/user-attachments/assets/761c19c7-e061-47a7-9565-7d7156fa40db)
+
 The program makes use of a main menu for top-level options and a sub-menu for the analysis options. The program should continue to run until the user chooses to quit. Ask the user to supply the desired filename when saving a new monthly file. When entering new daily data, the user will need to enter values for one month only and provide a value for each day (zero means no gaming that day). Duplicate entry dates are not allowed.
 
 Use two parallel arrays for storing the data in your program (one for date values and one for corresponding daily values). Keep an accurate record count for the number of days loaded/entered. Dates must be in valid YYYY-MMM-DD (e.g., 2025-JUL-14) format. Values must be zero or positive.
